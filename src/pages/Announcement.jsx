@@ -319,9 +319,9 @@ export default function Announcement() {
         <nav style={s.footerNav} aria-label="Footer navigation">
           <a href="/about" style={s.footerLink}>About</a>
           <span style={s.dot} aria-hidden="true">·</span>
-          <a href="https://instagram.com/drinkplevo" target="_blank" rel="noopener noreferrer" style={s.footerLink}>Instagram</a>
+          <a href="https://www.instagram.com/drinkplevo?igsh=dzcwMmNxajNiYnNw" target="_blank" rel="noopener noreferrer" style={s.footerLink}>Instagram</a>
           <span style={s.dot} aria-hidden="true">·</span>
-          <a href="https://linkedin.com/company/plevo" target="_blank" rel="noopener noreferrer" style={s.footerLink}>LinkedIn</a>
+          <a href="https://www.linkedin.com/company/drinkplevo/" target="_blank" rel="noopener noreferrer" style={s.footerLink}>LinkedIn</a>
         </nav>
 
 
@@ -543,17 +543,11 @@ const s = {
     position: 'fixed', top: 24, left: 28,
     zIndex: 30,
     fontFamily: "'Syne',sans-serif",
-    fontSize: 20, fontWeight: 800,
-    color: '#fff',
+    fontSize: 17, fontWeight: 700,
+    color: 'rgba(255,255,255,0.75)',
     letterSpacing: '-0.02em',
     textDecoration: 'none',
     textTransform: 'lowercase',
-    textShadow: '0 0 18px rgba(140,60,220,0.95), 0 0 40px rgba(140,60,220,0.4)',
-    background: 'rgba(255,255,255,0.04)',
-    border: '1px solid rgba(140,60,220,0.25)',
-    borderRadius: 8,
-    padding: '5px 12px',
-    backdropFilter: 'blur(8px)',
   },
   /* Footer bar */
   footerBar: {
